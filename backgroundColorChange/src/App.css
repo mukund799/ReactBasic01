@@ -1,8 +1,12 @@
 #root {
-  max-width: 1280px;
+  max-width: 1280px !important;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+.abc{
+  width: 1350px !important;
+  height: 100%;
 }
 
 .logo {
