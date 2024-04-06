@@ -1,6 +1,12 @@
 import { useState } from 'react'
+import Card from './component/Card';
 
 function App() {
+  const propsValue ={
+    name: "John Doe",
+    buttonText: "Read Me"
+    }
+  
   const [count, setCount] = useState(0)
 
   const up = () =>{
@@ -12,6 +18,7 @@ function App() {
     if(count <=0){ alert(" count can't be lesser than 0"); return}
     setCount(count -1)
   }
+
   return (
     <>
       <h3> React with Mukund</h3>
@@ -19,6 +26,11 @@ function App() {
       <button onClick={up}>Up</button>
       <br></br>
       <button onClick={down}>Down</button>
+      
+        <Card props = {propsValue}/>
+        <Card props = {{name:"mukund"}}/>
+        
+     
     </>
   )
 }
