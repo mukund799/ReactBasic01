@@ -1,0 +1,36 @@
+.main{
+    background-color: cadetblue;
+    color: white;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+}
+.input{
+    margin: 20px;
+    /* margin-top: 30px; */
+    padding: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+    border-radius: 20px;
+}
+button{
+    background-color: blue;
+    height: 43px;
+    color: white;
+    text-align: center;
+    border-radius: 0 10px 10px 0;
+}
+.textInput{
+    width: 300px;
+    height: 43px;
+    border-radius: 10px 0 0 10px;
+    padding-left: 10px;
+    color: black;
+}
+.checkbox{
+    display: flex;
+  
+    height: 30px;
+    
+    margin-left: 180px;
+}
