@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Card from './component/Card';
 
+import Form from './component/Form';
 function App() {
   const propsValue ={
     name: "John Doe",
@@ -27,8 +28,9 @@ function App() {
       <br></br>
       <button onClick={down}>Down</button>
       
-        <Card props = {propsValue}/>
-        <Card props = {{name:"mukund"}}/>
+        {/* <Card props = {propsValue}/>
+        <Card props = {{name:"mukund"}}/> */}
+        <Form />
         
      
     </>
